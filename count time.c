@@ -137,12 +137,6 @@ void PrintFinal(long long totalsecs){
     week(StartingDay);
     printf(") %d:%d:%d", hours, mins, secs);
 }
-/*bool debug= false;
-void TestPrint(long long secs){
-    if(debug){
-       printf("\ntotal secs= %lld", secs,);
-    }
-}*/
 
 int main(){
     char determinant=0; /*determinant=d or + or -*/
